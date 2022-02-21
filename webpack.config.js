@@ -22,7 +22,7 @@ const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = (env) => {
   return {
-    entry: ["/tree/main/src/index.ts"],
+    entry: ["index.ts"],
     module: {
       rules: [
         {
